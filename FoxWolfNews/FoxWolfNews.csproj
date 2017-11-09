@@ -90,9 +90,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BottomNavigationViewUtils.cs" />
-    <Compile Include="Fragments\Fragment1.cs" />
-    <Compile Include="Fragments\Fragment3.cs" />
-    <Compile Include="Fragments\Fragment2.cs" />
+    <Compile Include="Fragments\GuoNeiFragment.cs" />
+    <Compile Include="Fragments\GuoJiFragment.cs" />
+    <Compile Include="Fragments\SheHuiFragment.cs" />
+    <Compile Include="Fragments\TopFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -102,9 +103,12 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <AndroidResource Include="Resources\layout\toolbar.axml" />
-    <AndroidResource Include="Resources\layout\fragment1.axml" />
-    <AndroidResource Include="Resources\layout\fragment2.axml" />
-    <AndroidResource Include="Resources\layout\fragment3.axml" />
+    <AndroidResource Include="Resources\layout\topFragment.axml" />
+    <AndroidResource Include="Resources\layout\sheHuifragment.axml" />
+    <AndroidResource Include="Resources\layout\guoJiFragment.axml" />
+    <AndroidResource Include="Resources\layout\guoNeiFragment.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\main.axml">

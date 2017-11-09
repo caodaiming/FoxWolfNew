@@ -2,24 +2,38 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
   <item
-      android:id="@+id/menu_home"
+      android:id="@+id/menu_top"
       android:enabled="true"
       android:icon="@drawable/ic_action_home"
-      android:title="@string/tab1_title"
+      android:title="@string/tab1_top"
       app:showAsAction="ifRoom" />
 
   <item
-      android:id="@+id/menu_audio"
+      android:id="@+id/menu_guonei"
       android:enabled="true"
       android:icon="@drawable/ic_action_audiotrack"
-      android:title="@string/tab2_title"
+      android:title="@string/tab2_guonei"
       app:showAsAction="ifRoom" />
 
   <item
-      android:id="@+id/menu_video"
+      android:id="@+id/menu_shehui"
       android:enabled="true"
       android:icon="@drawable/ic_action_videocam"
-      android:title="@string/tab3_title"
+      android:title="@string/tab3_shehui"
       app:showAsAction="ifRoom" />
+
+  <item
+      android:id="@+id/menu_guoji"
+      android:enabled="true"
+      android:icon="@drawable/ic_action_videocam"
+      android:title="@string/tab4_guoji"
+      app:showAsAction="ifRoom" />
+
+  <!--<item
+      android:id="@+id/menu_junshi"
+      android:enabled="true"
+      android:icon="@drawable/ic_action_videocam"
+      android:title="@string/tab5_junshi"
+      app:showAsAction="ifRoom" />-->
 
 </menu>

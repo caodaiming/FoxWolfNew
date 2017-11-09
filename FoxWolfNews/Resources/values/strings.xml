@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">FoxWolfNews</string>
-  <string name="fragment1">This is the first tab.</string>
-  <string name="fragment2">This is the second tab.</string>
-  <string name="fragment3">This is the third tab.</string>
-  <string name="tab1_title">Tab1</string>
-  <string name="tab2_title">Tab2</string>
-  <string name="tab3_title">Tab3</string>
+  <string name="app_name">狐狸狼新闻客户端</string>
+  <string name="top">今日头条</string>
+  <string name="shehui">社会新闻</string>
+  <string name="guoji">国际新闻</string>
+  <string name="guonei">国内新闻</string>
+  <string name="tab1_top">头条</string>
+  <string name="tab2_guonei">国内</string>
+  <string name="tab3_shehui">社会</string>
+  <string name="tab4_guoji">国际</string>
+  <string name="tab5_junshi">军事</string>
 </resources>

@@ -31,7 +31,7 @@ namespace FoxWolfNews
 
             bottomNavigation.NavigationItemSelected += BottomNavigation_NavigationItemSelected;
 
-            LoadFragment(Resource.Id.menu_home);
+            LoadFragment(Resource.Id.menu_top);
         }
 
         private void BottomNavigation_NavigationItemSelected(object sender, BottomNavigationView.NavigationItemSelectedEventArgs e)
@@ -44,14 +44,17 @@ namespace FoxWolfNews
             Android.Support.V4.App.Fragment fragment = null;
             switch (id)
             {
-                case Resource.Id.menu_home:
-                    fragment = Fragment1.NewInstance();
+                case Resource.Id.menu_top:
+                    fragment = TopFragment.NewInstance();
                     break;
-                case Resource.Id.menu_audio:
-                    fragment = Fragment2.NewInstance();
+                case Resource.Id.menu_guonei:
+                    fragment = GuoNeiFragment.NewInstance();
                     break;
-                case Resource.Id.menu_video:
-                    fragment = Fragment3.NewInstance();
+                case Resource.Id.menu_guoji:
+                    fragment = GuoJiFragment.NewInstance();
+                    break;
+                case Resource.Id.menu_shehui:
+                    fragment = SheHuiFragment.NewInstance();
                     break;
             }
             if (fragment == null)
